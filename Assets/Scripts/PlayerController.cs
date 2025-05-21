@@ -9,7 +9,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -17,13 +17,18 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * horizontalSpeed);
-        if(transform.position.x < -xlimit)
+        if (transform.position.x < -xlimit)
         {
-            transform.position = new Vector3(-xlimit,transform.position.y,transform.position.z);
+            transform.position = new Vector3(-xlimit, transform.position.y, transform.position.z);
         }
         if (transform.position.x > xlimit)
         {
             transform.position = new Vector3(xlimit, transform.position.y, transform.position.z);
         }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(projectilePrefab,transform.position,transform.rotation);
+        }
+
     }
 }
