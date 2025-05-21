@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4386641193113906099}
   - component: {fileID: 785760347035536458}
   - component: {fileID: 7498393453179775322}
+  - component: {fileID: 9104935390881383142}
   m_Layer: 0
   m_Name: Food_Pizza_01
   m_TagString: Untagged
@@ -163,3 +164,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &9104935390881383142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2982927846428198092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a327f0e2a36dd1468695372bd6fa28f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
