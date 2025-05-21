@@ -604,11 +604,6 @@ Transform:
   - {fileID: 425805627}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1162981048 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1658078119538018298, guid: c4759fb691dccfc40acf5fab67c7cf73, type: 3}
-  m_PrefabInstance: {fileID: 5863065468877077952}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1272097812
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,16 +649,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 1829348606}
-  - {fileID: 1162981048}
-  - {fileID: 1333614986}
+  - {fileID: 5339325688869208897, guid: fdaa0c266083c9147803ac7b967091d6, type: 3}
+  - {fileID: 1658078119538018298, guid: c4759fb691dccfc40acf5fab67c7cf73, type: 3}
+  - {fileID: 6016181519820921231, guid: b6466b19f8df7484b9fb6e02a0096e95, type: 3}
   spwanRangeX: 20
   spwanRangeZ: 20
---- !u!1 &1333614986 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6016181519820921231, guid: b6466b19f8df7484b9fb6e02a0096e95, type: 3}
-  m_PrefabInstance: {fileID: 804499642546953951}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,11 +740,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590138454}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1829348606 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5339325688869208897, guid: fdaa0c266083c9147803ac7b967091d6, type: 3}
-  m_PrefabInstance: {fileID: 3679118140038940796}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2109847847
 PrefabInstance:
   m_ObjectHideFlags: 0
