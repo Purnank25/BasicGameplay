@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/f27e30ee-fe86-4d6f-9d5d-71239dba044c
 ## 🧩 Features
 
 - Procedurally spawned obstacles.
-- Simple jump mechanic using space bar or touch.
+- Simple jump mechanic using space bar.
 - Smooth camera follow from behind (Z-axis).
 - Increasing difficulty over time (optional).
 
@@ -38,6 +38,9 @@ https://github.com/user-attachments/assets/f27e30ee-fe86-4d6f-9d5d-71239dba044c
 |--------|-------------|
 | Jump   | `Spacebar`  |
 
+## 🙌 Credits
 
+- Player and obstacle models: Unity Asset Store / Custom
+- Inspiration: Chrome Dino Game
 
 
