@@ -1,45 +1,44 @@
-# 🏃 Endless Runner Game
+# 🐷 Feed Junk - 2D Shooter Game
 
-A 3D endless runner game built in Unity where the player constantly moves forward along the **X-axis** while the **camera follows along the Z-axis**. The player must **dodge obstacles** by **jumping over them**, similar to the popular **Chrome Dino Game**.
+**Feed Junk** is a quirky 2D shooter-style game built in **Unity**, where you play as a farmer who throws **junk food** at animals to feed them. If you miss feeding even one animal, **the game ends**! Designed with simple mechanics and fun interactions, this game challenges your timing and aim.
 
 
 ## 🎮 Gameplay
 
-- The player character automatically runs along the **X-axis**.
-- The **main camera** follows from the **Z-axis**, giving a unique viewing angle.
-- Random obstacles appear in the player’s path.
-- The player must **jump over obstacles** to survive as long as possible.
-- The game ends if the player hits an obstacle.
+- The player controls a **farmer** standing at one side of the screen.
+- Animals continuously approach the farmer from the opposite side.
+- The farmer must **throw junk food** to hit and feed them before they pass by.
+- Missing even a single animal results in **game over**.
+- Think fast and aim well — it's a test of reflexes and precision!
 
 
-## Output
+## 🖼️ Output
 
 
-https://github.com/user-attachments/assets/f27e30ee-fe86-4d6f-9d5d-71239dba044c
+Uploading feedjunk.mp4…
 
 
 ## 🧩 Features
 
-- Procedurally spawned obstacles.
-- Simple jump mechanic using space bar.
-- Smooth camera follow from behind (Z-axis).
-- Increasing difficulty over time (optional).
+- 2D arcade-style shooting mechanics.
+- Increasing difficulty as more animals approach faster.
+- Simple but engaging win/lose condition.
+- Light, cartoonish visuals and gameplay suitable for all ages.
+
+
+## 🕹️ Controls
+
+| Action       | Key          |
+|--------------|--------------|
+| Throw Food   | `Spacebar`  |
 
 
 ## 🛠️ Built With
 
 - **Unity Engine**
 - **C# Scripting**
-
-
-## 🕹️ Controls
-
-| Action | Key         |
-|--------|-------------|
-| Jump   | `Spacebar`  |
-
+- **2D Sprite-based Assets**
 ## 🙌 Credits
-
 - Player and obstacle models: Unity Asset Store / Custom
 - Inspiration: Chrome Dino Game
 
