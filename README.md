@@ -14,13 +14,7 @@
 
 ## 🖼️ Output
 
-
-
-Uploading feedjunk.mp4…
-
-
-
-
+https://github.com/user-attachments/assets/d9bcc7dc-c604-4f97-97d8-6e2e28ba3cec
 
 ## 🧩 Features
 
